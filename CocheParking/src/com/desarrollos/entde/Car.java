@@ -28,8 +28,7 @@ public class Car
      */
     public static void main(String[] args) throws InterruptedException{
     	Garage g = new Garage();
-    	Car car = new Car(g);
-        car.accelerate();
+    	accelerate();
         slowDown();
         moveDown();
         accelerate();
